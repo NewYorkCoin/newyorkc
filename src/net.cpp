@@ -1143,8 +1143,8 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-       // default hypernode dns seed , change later when network grows
-       {"107.155.190.222", "107.155.190.222"}
+	{"ds.newyorkco.in", "seed.ds.newyorkco.in"},
+    {"newyorkco.in", "seed.newyorkco.in"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
@@ -1214,10 +1214,9 @@ void ThreadDNSAddressSeed2(void* parg)
 
 
 
-
 unsigned int pnSeed[] =
 {
-    0x92B9B572, 0xA2F3716E, 0x5F551D90
+    0x4AA1F1C0, 0x92B9B572, 0xA2F3716E, 0x5F551D90
 };
 
 void DumpAddresses()
