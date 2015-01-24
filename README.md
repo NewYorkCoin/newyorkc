@@ -1,7 +1,10 @@
 #together for a new beginning newyorkc [NYC]
 pool: http://aikapool.com/nyc/
+
 exchanges: https://bleutrade.com/exchange/NYC/BTC
+
 cryptsy voting : https://www.cryptsy.com/coinvotes/
+
 ## FAQ
 
 ### Max coins?
